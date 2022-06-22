@@ -1,14 +1,14 @@
 {
-  "name": "in-your-face",
-  "displayName": "In Your Face",
-  "description": "In Your Face, shows you Doom 'Ouch Faces' that correlate to the number of errors in your code!",
+  "name": "in-jurandir-face",
+  "displayName": "In Jurandir Faces",
+  "description": "In Juranir Faces, reações do Jurandir ao seu código todo bugado",
   "version": "1.1.2",
-  "publisher": "VirejDasani",
-  "homepage": "https://github.com/virejdasani/InYourFace",
+  "publisher": "LuizLuna",
+  "homepage": "https://github.com/LuizLunaa/IrJurandirFaces",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/virejdasani/InYourFace"
+    "url": "https://github.com/LuizLunaa/IrJurandirFaces"
   },
   "engines": {
     "vscode": "^1.61.0"
@@ -43,7 +43,7 @@
     "viewsContainers": {
       "activitybar": [{
         "id": "custom-activitybar",
-        "title": "In Your Face",
+        "title": "In Jurandir Faces",
         "icon": "assets/logo_bito.svg"
       }]
     },
@@ -51,8 +51,8 @@
       "custom-activitybar": [{
         "type": "webview",
         "id": "in-your-face.openview",
-        "name": "In Your Face",
-        "contextualTitle": "In Your Face"
+        "name": "In Jurandir Faces",
+        "contextualTitle": "In Jurandir Faces"
       }]
     },
     "commands": [{

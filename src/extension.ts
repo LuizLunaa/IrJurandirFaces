@@ -203,7 +203,7 @@ class CustomSidebarViewProvider implements vscode.WebviewViewProvider {
     setInterval(() => {
       const errors = getNumErrors();
       let i = "0";
-      if (errors) i = errors < 1 ? "1" : errors < 3 ? "2" : errors < 4 ? "3" : "4";
+      if (errors) i = errors < 2 ? "1" : errors < 4 ? "2" : errors < 6 ? "3" : "4";
       webviewView.webview.html = this.getHtmlContent(webviewView.webview, i);
     }, 1000);
   }
